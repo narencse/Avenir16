@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:shadowDx="8"
+                android:shadowDy="5"
+                android:text="Games"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_0"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:shadowDx="8"
+                android:shadowDy="5"
+                android:text="Cybernix"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:shadowDx="8"
+                android:shadowDy="5"
+                android:text="Robotics"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:shadowDx="8"
+                android:shadowDy="5"
+                android:text="General"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:shadowDx="8"
+                android:shadowDy="5"
+                android:text="Lensified"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:shadowDx="8"
+                android:shadowDy="5"
+                android:text="Fun Events"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:shadowDx="8"
+                android:shadowDy="5"
+                android:text="Nirmaan"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
